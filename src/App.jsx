@@ -8,7 +8,7 @@ const Chat = () => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const newSocket = io("https://node-chat-ubzi.onrender.com/3000");
+    const newSocket = io("https://node-chat-ubzi.onrender.com:3000");
     setSocket(newSocket);
 
     return () => newSocket.close();
