@@ -1,6 +1,41 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  margin:0;
+}
+.chat {
+  max-width: 300px;
+  height: 300px;
+  position: relative;
+  background: rgba(128, 128, 128, 0.186);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+ul {
+  background: red;
+  max-height: 300px;
+}
+.msg {
+  display: flex;
+  margin: 2px;
+}
+form {
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  background: green;
+}
+form input {
+  width: 70%;
+  height: 30px;
+  border-radius: 10px;
+  border:1px gray solid;
+}
+form button {
+  width: 25%;
+  padding: 9px;
+  border-radius: 10px;
+  /* border-color: gray; */
+  border: 1px gray solid;
+  margin-left: 5px;
 }
